@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>999长长久久_久久为功的婚礼影像_长长久久求婚仪式记录</title>
+<meta name="description" content="999长长久久是一家专注婚礼与纪念日影像的视频品牌，提供求婚仪式跟拍、婚礼纪实、周年纪念短片与家庭影像档案，并公开拍摄档期、样片解析、定制流程与真实客户反馈，适合正在筹备婚礼、求婚或纪念日拍摄的新人与家庭参考。">
+<meta name="keywords" content="婚礼跟拍,求婚仪式记录,周年纪念短片,婚礼纪实影像,家庭影像档案">
+<style>
+:root{
+  --bg:#0f1115;
+  --bg-soft:#151821;
+  --panel:#191d27;
+  --panel-2:#1f2430;
+  --line:#2b3140;
+  --line-soft:#232836;
+  --text:#e8e9ee;
+  --text-2:#b3b8c6;
+  --text-3:#858b9c;
+  --gold:#d8a75b;
+  --gold-soft:#f0cf9a;
+  --rose:#c96b7a;
+  --teal:#5fa8a0;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --max:1340px;
+  --head-h:64px;
+  --notice-h:40px;
+  --offset:calc(var(--head-h) + var(--notice-h) + 16px);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--text);font-family:var(--font);
+  font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700}
+p{margin:0 0 .9em}
+ul,ol{margin:0 0 .9em;padding-left:1.2em}
+li{margin:.25em 0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
+section[id],div[id]{scroll-margin-top:var(--offset)}
+
+/* 公告条 */
+.notice{
+  position:sticky;top:0;z-index:60;height:var(--notice-h);
+  background:linear-gradient(90deg,#3a2a17,#241b10 55%,#2a2118);
+  border-bottom:1px solid #4a3820;display:flex;align-items:center;
+}
+.notice .wrap{display:flex;align-items:center;gap:14px;width:100%;overflow:hidden}
+.notice-tag{
+  flex:none;font-size:11px;letter-spacing:.14em;color:#1a1206;font-weight:800;
+  background:var(--gold);padding:2px 8px;border-radius:4px;
+}
+.notice-track{font-size:13px;color:#e7d5b6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice-track b{color:var(--gold-soft)}
+.notice-more{flex:none;margin-left:auto;font-size:12.5px;color:var(--gold-soft);border-bottom:1px dashed #7a5c30}
+
+/* 页头 */
+.head{
+  position:sticky;top:var(--notice-h);z-index:55;height:var(--head-h);
+  background:rgba(15,17,21,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.head .wrap{display:flex;align-items:center;gap:26px;height:100%}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand-mark{width:34px;height:34px;flex:none}
+.brand-text{font-size:17px;font-weight:800;letter-spacing:.06em}
+.brand-text small{display:block;font-size:10px;letter-spacing:.24em;color:var(--gold);font-weight:600;line-height:1.2}
+.nav{display:flex;gap:4px;flex-wrap:nowrap;overflow:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  font-size:13.5px;color:var(--text-2);padding:7px 11px;border-radius:7px;white-space:nowrap;
+  transition:.18s;
+}
+.nav a:hover{color:var(--text);background:var(--panel-2)}
+.head-actions{margin-left:auto;display:flex;align-items:center;gap:10px;flex:none}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:8px;
+  border:1px solid var(--line);background:var(--panel-2);color:var(--text);
+  cursor:pointer;transition:.18s;font-family:inherit;
+}
+.btn:hover{background:#262c3a;border-color:#3b4356}
+.btn-primary{
+  background:linear-gradient(135deg,var(--gold),#b8863f);border-color:#a8793a;color:#1a1206;
+}
+.btn-primary:hover{background:linear-gradient(135deg,#e2b46d,#c3934a)}
+.menu-btn{display:none;background:var(--panel-2);border:1px solid var(--line);color:var(--text);padding:7px 10px;border-radius:7px;font-size:13px;cursor:pointer}
+
+/* 首屏 */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line-soft);background:
+  radial-gradient(900px 420px at 78% -10%,rgba(216,167,91,.14),transparent 65%),
+  radial-gradient(700px 380px at 8% 110%,rgba(201,107,122,.10),transparent 60%),
+  var(--bg-soft);}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-top:56px;padding-bottom:56px}
+.hero-kicker{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.16em;color:var(--gold);border:1px solid #4a3820;background:#1e1810;padding:5px 11px;border-radius:999px;margin-bottom:18px}
+.hero h1{font-size:clamp(30px,4.2vw,46px);letter-spacing:.02em;margin-bottom:16px}
+.hero h1 span{color:var(--gold-soft)}
+.hero-sub{font-size:15.5px;color:var(--text-2);max-width:44ch;margin-bottom:24px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.hero-stats{display:flex;gap:30px;flex-wrap:wrap;border-top:1px solid var(--line-soft);padding-top:18px}
+.hero-stats div strong{display:block;font-size:20px;color:var(--gold-soft);line-height:1.2}
+.hero-stats div span{font-size:12.5px;color:var(--text-3)}
+.hero-visual{position:relative}
+.hero-frame{position:relative;border-radius:18px;overflow:hidden;border:1px solid #3a3020;box-shadow:var(--shadow)}
+.hero-frame img{width:100%;height:100%;object-fit:cover;aspect-ratio:5/4}
+.hero-badge{
+  position:absolute;left:-14px;bottom:22px;background:#12151c;border:1px solid #3a3020;
+  border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);
+}
+.hero-badge strong{display:block;font-size:13px;color:var(--gold-soft)}
+.hero-badge span{font-size:11.5px;color:var(--text-3)}
+.hero-badge2{position:absolute;right:-10px;top:18px;background:#12151c;border:1px solid var(--line);border-radius:10px;padding:9px 13px;font-size:12px;color:var(--text-2);box-shadow:var(--shadow)}
+.hero-badge2 b{color:var(--teal)}
+
+/* 主布局：三栏门户 */
+.layout{display:grid;grid-template-columns:186px minmax(0,1fr) 240px;gap:26px;padding:38px 0 60px;align-items:start}
+.side-l,.side-r{position:sticky;top:calc(var(--offset) + 4px);display:flex;flex-direction:column;gap:18px;font-size:13.5px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.panel h3{font-size:12px;letter-spacing:.14em;color:var(--gold);margin-bottom:12px;font-weight:700}
+.chan-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:2px}
+.chan-list a{display:flex;justify-content:space-between;align-items:center;gap:6px;padding:7px 9px;border-radius:7px;color:var(--text-2);transition:.15s}
+.chan-list a:hover{background:var(--panel-2);color:var(--text)}
+.chan-list em{font-style:normal;font-size:11px;color:var(--text-3)}
+.rank-list{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank-list li{counter-increment:rk;display:flex;gap:9px;padding:7px 0;border-bottom:1px dashed var(--line-soft);font-size:13px;line-height:1.5}
+.rank-list li:last-child{border-bottom:0}
+.rank-list li::before{content:counter(rk);flex:none;width:18px;height:18px;border-radius:5px;background:var(--panel-2);color:var(--text-3);font-size:11px;font-weight:700;display:grid;place-items:center;margin-top:2px}
+.rank-list li:nth-child(-n+3)::before{background:#382a15;color:var(--gold-soft)}
+.rank-list b{font-weight:600;color:var(--text)}
+.rank-list small{display:block;color:var(--text-3);font-size:11.5px}
+.mini-note{font-size:12px;color:var(--text-3);line-height:1.65}
+
+/* 主内容 */
+.main{display:flex;flex-direction:column;gap:34px;min-width:0}
+.blk{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.blk-head{display:flex;align-items:baseline;gap:12px;margin-bottom:6px;flex-wrap:wrap}
+.blk-head h2{font-size:19px;letter-spacing:.01em}
+.blk-head h2 i{font-style:normal;color:var(--gold);margin-right:6px}
+.blk-lead{font-size:13.5px;color:var(--text-3);margin-bottom:18px}
+.blk-lead b{color:var(--gold-soft);font-weight:600}
+
+/* 概览 */
+.overview p{font-size:14.5px;color:var(--text-2);line-height:1.85}
+.overview .ov-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.ov-tags span{font-size:12px;color:#d8c39c;background:#231d13;border:1px solid #43351f;border-radius:999px;padding:4px 11px}
+
+/* 精选卡片 */
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{border:1px solid var(--line-soft);border-radius:var(--radius-sm);overflow:hidden;background:var(--panel-2);display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:#4a3820;transform:translateY(-2px)}
+.card-thumb{position:relative}
+.card-thumb img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.card-type{position:absolute;left:10px;top:10px;font-size:11px;background:rgba(15,17,21,.88);color:var(--gold-soft);border:1px solid #4a3820;padding:3px 8px;border-radius:5px;font-weight:600}
+.card-body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:7px;flex:1}
+.card-body h4{font-size:14.5px}
+.card-body p{font-size:12.8px;color:var(--text-3);line-height:1.65;margin:0}
+.card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:6px}
+.card-tags span{font-size:11px;color:var(--text-2);background:#232836;border-radius:4px;padding:2px 7px}
+.card-meta{display:flex;justify-content:space-between;font-size:11.5px;color:var(--text-3);border-top:1px solid var(--line-soft);padding-top:8px;margin-top:2px}
+.card-meta b{color:var(--rose);font-weight:600}
+
+/* 动态列表 */
+.feed{list-style:none;padding:0;margin:0;display:flex;flex-direction:column}
+.feed li{display:flex;gap:14px;padding:11px 0;border-bottom:1px dashed var(--line-soft);align-items:flex-start}
+.feed li:last-child{border-bottom:0;padding-bottom:0}
+.feed-time{flex:none;font-size:11.5px;color:var(--text-3);width:74px;padding-top:2px;font-variant-numeric:tabular-nums}
+.feed-body{min-width:0}
+.feed-body b{font-size:13.5px;color:var(--text)}
+.feed-body span{display:block;font-size:12.5px;color:var(--text-3);line-height:1.6}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--teal);margin-right:6px;vertical-align:1px}
+
+/* 分类 */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.cat{
+  border:1px solid var(--line-soft);border-radius:var(--radius-sm);background:var(--panel-2);
+  padding:13px 12px;text-align:left;cursor:pointer;font-family:inherit;color:var(--text);
+  transition:.16s;display:flex;flex-direction:column;gap:3px;
+}
+.cat:hover{background:#262c3a;border-color:#3b4356}
+.cat.on{background:#2b2213;border-color:var(--gold);color:var(--gold-soft)}
+.cat b{font-size:13.5px}
+.cat span{font-size:11.5px;color:var(--text-3)}
+.cat.on span{color:#c9a870}
+.filter-note{font-size:12.5px;color:var(--text-3);margin-top:12px}
+.filter-note b{color:var(--gold-soft)}
+.cards.filtered .card[hidden]{display:none}
+
+/* 深度解析 */
+.deep h2{font-size:20px;margin-bottom:6px}
+.deep h3{font-size:15px;color:var(--gold-soft);margin:22px 0 8px;padding-left:11px;border-left:3px solid var(--gold)}
+.deep p{font-size:14px;color:var(--text-2);line-height:1.88}
+.deep ul li{font-size:13.8px;color:var(--text-2)}
+.deep strong{color:var(--text)}
+.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:14px 0}
+.compare-box{border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:14px;background:var(--panel-2)}
+.compare-box h4{font-size:13.5px;color:var(--gold-soft);margin-bottom:6px}
+.compare-box p{font-size:12.8px;color:var(--text-3);margin:0}
+
+/* 指南步骤 */
+.steps{counter-reset:st;list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+.steps li{counter-increment:st;position:relative;padding:13px 15px 13px 52px;border:1px solid var(--line-soft);border-radius:var(--radius-sm);background:var(--panel-2)}
+.steps li::before{
+  content:counter(st,decimal-leading-zero);position:absolute;left:14px;top:13px;
+  font-size:15px;font-weight:800;color:var(--gold);font-variant-numeric:tabular-nums;
+}
+.steps li b{display:block;font-size:13.8px;margin-bottom:3px}
+.steps li span{font-size:12.8px;color:var(--text-3);line-height:1.65}
+
+/* FAQ */
+details{border:1px solid var(--line-soft);border-radius:var(--radius-sm);background:var(--panel-2);margin-bottom:9px;overflow:hidden}
+details[open]{border-color:#4a3820}
+summary{padding:13px 16px;font-size:14px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:17px;font-weight:400;flex:none}
+details[open] summary::after{content:"−"}
+details p{padding:0 16px 14px;font-size:13.2px;color:var(--text-3);line-height:1.8;margin:0}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.cmt{border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:12px 14px;background:var(--panel-2);font-size:13px}
+.cmt-top{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.avatar{width:24px;height:24px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:11px;font-weight:800;color:#15100a}
+.cmt-top b{font-size:12.5px;color:var(--text)}
+.cmt-top em{font-style:normal;font-size:11px;color:var(--text-3);margin-left:auto}
+.cmt p{margin:0;font-size:12.7px;color:var(--text-2);line-height:1.7}
+.cmt .star{color:var(--gold);font-size:11px;letter-spacing:1px}
+
+/* 资讯 */
+.news{display:flex;flex-direction:column;gap:0}
+.news-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line-soft);align-items:flex-start}
+.news-item:last-child{border-bottom:0;padding-bottom:0}
+.news-item img{width:104px;height:70px;border-radius:8px;object-fit:cover;flex:none;border:1px solid var(--line-soft)}
+.news-body{min-width:0}
+.news-body h4{font-size:14px;margin-bottom:4px}
+.news-body h4 a:hover{color:var(--gold-soft)}
+.news-body time{font-size:11.5px;color:var(--gold);margin-right:8px;font-variant-numeric:tabular-nums}
+.news-body p{font-size:12.5px;color:var(--text-3);margin:0;line-height:1.65}
+
+/* 推荐标签 */
+.tagindex{display:flex;flex-wrap:wrap;gap:9px}
+.tagindex a{font-size:12.8px;color:var(--text-2);border:1px solid var(--line-soft);background:var(--panel-2);border-radius:999px;padding:6px 13px;transition:.16s}
+.tagindex a:hover{color:var(--gold-soft);border-color:#4a3820;background:#231d13}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:0;position:relative;padding-left:22px}
+.timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--gold),var(--line-soft))}
+.timeline li{position:relative;padding:0 0 16px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:-21px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--bg);border:2px solid var(--gold)}
+.timeline b{font-size:13.5px;color:var(--text)}
+.timeline time{font-size:11.5px;color:var(--gold);margin-left:8px;font-variant-numeric:tabular-nums}
+.timeline span{display:block;font-size:12.6px;color:var(--text-3);line-height:1.65}
+
+/* 证据分层 */
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.tier{border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:14px;background:var(--panel-2)}
+.tier b{display:block;font-size:13px;margin-bottom:5px;color:var(--gold-soft)}
+.tier span{font-size:12.3px;color:var(--text-3);line-height:1.65;display:block}
+
+/* 搜索框 */
+.search{display:flex;gap:8px;margin-bottom:14px}
+.search input{
+  flex:1;min-width:0;background:var(--panel-2);border:1px solid var(--line);color:var(--text);
+  border-radius:8px;padding:9px 13px;font-size:13.5px;font-family:inherit;
+}
+.search input::placeholder{color:var(--text-3)}
+.search input:focus{outline:none;border-color:var(--gold)}
+.empty{display:none;font-size:13px;color:var(--text-3);text-align:center;padding:22px 0;border:1px dashed var(--line);border-radius:var(--radius-sm)}
+.empty.show{display:block}
+
+/* 页尾 */
+.foot{border-top:1px solid var(--line);background:#0b0d11;padding:42px 0 26px;margin-top:20px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;margin-bottom:30px}
+.foot-brand .brand{margin-bottom:12px}
+.foot-brand p{font-size:12.8px;color:var(--text-3);line-height:1.8;max-width:34ch}
+.foot-col h4{font-size:12.5px;color:var(--gold);letter-spacing:.1em;margin-bottom:11px}
+.foot-col ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
+.foot-col a{font-size:12.8px;color:var(--text-3)}
+.foot-col a:hover{color:var(--text)}
+.foot-bottom{border-top:1px solid var(--line-soft);padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--text-3)}
+.foot-bottom span{line-height:1.7}
+.foot-bottom .disc{max-width:62ch}
+
+@media (max-width:1024px){
+  .layout{grid-template-columns:186px minmax(0,1fr);gap:22px}
+  .side-r{display:none}
+  .hero .wrap{grid-template-columns:1fr;gap:32px}
+  .hero-sub{max-width:none}
+  .nav{display:none}
+  .nav.open{display:flex;position:absolute;top:var(--head-h);left:0;right:0;background:#12151c;border-bottom:1px solid var(--line);padding:10px 18px;flex-wrap:wrap}
+  .head .wrap{position:relative}
+  .menu-btn{display:inline-block}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  :root{--head-h:60px}
+  .layout{grid-template-columns:1fr;gap:22px;padding-top:24px}
+  .side-l{position:static;order:2}
+  .main{order:1}
+  .chan-list{flex-direction:row;flex-wrap:wrap}
+  .chan-list a{background:var(--panel-2);font-size:12.5px}
+  .chan-list em{display:none}
+  .cards{grid-template-columns:1fr}
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .comments{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr}
+  .news-item img{width:78px;height:58px}
+  .hero-stats{gap:22px}
+  .blk{padding:18px}
+  .foot-grid{grid-template-columns:1fr}
+  .notice-track{font-size:12px}
+  .notice-more{display:none}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="notice" id="noticeBar">
+  <div class="wrap">
+    <span class="notice-tag">档期公告</span>
+    <span class="notice-track">11 月 25 日更新 · 2027 年春季档期开放预约 <b>38 组</b> · 新增《三代同堂·冬日家书》家庭影像样片 1 支 · 本月已交付成片 <b>57 支</b></span>
+    <a class="notice-more" href="/#latest">查看更新明细</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="head" id="top">
+  <div class="wrap">
+    <a class="brand" href="/#top" aria-label="999长长久久 首页">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f0cf9a"/><stop offset="1" stop-color="#b8863f"/>
+          </linearGradient>
+        </defs>
+        <rect x="1" y="1" width="38" height="38" rx="11" fill="#1b1a15" stroke="#5a4526" stroke-width="1.4"/>
+        <path d="M12 26c0-6 3.6-10 8-10s8 4 8 10" fill="none" stroke="url(#gm)" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="20" cy="13" r="2.6" fill="url(#gm)"/>
+        <path d="M15.5 30h9" stroke="#c96b7a" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-text">999长长久久<small>WEDDING FILM</small></span>
+    </a>
+    <nav class="nav" id="navMain" aria-label="主导航">
+      <a href="/#overview">品牌概览</a>
+      <a href="/#featured">精选样片</a>
+      <a href="/#latest">档期动态</a>
+      <a href="/#category">服务分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">预约路径</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#reviews">客户反馈</a>
+      <a href="/#news">影像资讯</a>
+    </nav>
+    <div class="head-actions">
+      <a class="btn btn-primary" href="/#guide">查询档期</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navMain">菜单</button>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="hero-kicker">婚礼 · 求婚 · 纪念日 · 家庭影像</span>
+      <h1>999长长久久</h1>
+      <p class="hero-sub">一支婚礼影像团队，十二年只做一件事：把两个人决定一起生活的那个瞬间，拍成十年后还愿意重看的片子。从求婚夜到婚礼当天，从一周年到三代同堂，我们用纪录片的方式记录，不用模板配乐糊弄。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/#featured">看 8 支代表样片</a>
+        <a class="btn" href="/#guide">预约流程与档期</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>1,286</strong><span>累计交付成片</span></div>
+        <div><strong>4.9 / 5</strong><span>客户回访评分</span></div>
+        <div><strong>12 年</strong><span>婚礼影像专注经验</span></div>
+        <div><strong>38 组</strong><span>2027 春季剩余档期</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <img src="https://picsum.photos/seed/jiujiu-hero01/800/640" width="800" height="640" alt="999长长久久婚礼纪实影像拍摄现场，新人在黄昏光线中交换戒指" fetchpriority="high">
+      </div>
+      <div class="hero-badge"><strong>《雨停之后·杭州》</strong><span>2026 秋季婚礼纪实 · 12 分钟长片</span></div>
+      <div class="hero-badge2">本周新增 <b>6 支</b> 成片</div>
+    </div>
+  </div>
+</div>
+
+<!-- 三栏门户布局 -->
+<div class="wrap layout">
+
+  <!-- 左频道索引 -->
+  <aside class="side-l" aria-label="频道索引">
+    <div class="panel">
+      <h3>频道</h3>
+      <ul class="chan-list">
+        <li><a href="/#featured">求婚仪式记录 <em>24</em></a></li>
+        <li><a href="/#featured">婚礼当日纪实 <em>61</em></a></li>
+        <li><a href="/#featured">周年纪念短片 <em>18</em></a></li>
+        <li><a href="/#featured">家庭影像档案 <em>12</em></a></li>
+        <li><a href="/#category">中式三书六礼 <em>9</em></a></li>
+        <li><a href="/#category">目的地婚礼 <em>15</em></a></li>
+        <li><a href="/#category">领证跟拍 <em>22</em></a></li>
+        <li><a href="/#category">宝宝百日影像 <em>7</em></a></li>
+        <li><a href="/#news">器材与后期 <em>11</em></a></li>
+        <li><a href="/#reviews">客户反馈 <em>96</em></a></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>拍摄档期</h3>
+      <p class="mini-note">2026 年 12 月剩余 <b style="color:var(--gold-soft)">4 组</b><br>2027 年 1—3 月剩余 <b style="color:var(--gold-soft)">38 组</b><br>旺季（4—5 月、9—10 月）建议提前 6 个月锁定。</p>
+      <a class="btn" style="width:100%;margin-top:10px" href="/#guide">查询具体日期</a>
+    </div>
+  </aside>
+
+  <!-- 主内容 -->
+  <main class="main">
+
+    <!-- 1 概览 -->
+    <section class="blk overview" id="overview">
+      <div class="blk-head"><h2><i>01</i>999长长久久 拍什么</h2></div>
+      <p class="blk-lead">不是婚庆套餐里的“摄影摄像各一位”，而是<b>以纪录片方法制作的长期影像服务</b>。</p>
+      <p>婚礼影像这件事，粗看都是“跟拍一天，剪一支片子”，实际差别极大。999长长久久 把服务拆成四条线：求婚仪式记录、婚礼当日纪实、周年纪念短片、家庭影像档案。求婚线通常 1—3 小时，重点在真实反应，我们会提前一天彩排走位但不干预台词；婚礼线是 12—14 小时双机位，一台跟新人、一台跟长辈与宾客，因为十年后你会想看的不只是自己；纪念短片按年拍，3—5 分钟，用来把每年变化串成一条线；家庭档案则从宝宝百日拍到三代同堂，最长的一户已经连拍 7 年。</p>
+      <p>内容上我们坚持三件事：同期声保留、现场光优先、不摆拍关键瞬间。这意味着成片里会有你父亲咳嗽的声音、会有雨打在伞面上的杂音、也会有新娘笑到变形的那一帧。我们认为这些是资产，不是瑕疵。目前公开的 96 支样片里，最常被客户反复点开的是《雨停之后·杭州》和《外婆的红箱子·潮汕》，前者胜在情绪连贯，后者胜在礼俗细节完整。</p>
+      <div class="ov-tags">
+        <span>双机位纪实</span><span>同期声保留</span><span>4K 交付</span><span>礼俗细节记录</span><span>年度回访补拍</span><span>成片 30 天内交付</span>
+      </div>
+    </section>
+
+    <!-- 2 精选内容 -->
+    <section class="blk" id="featured">
+      <div class="blk-head"><h2><i>02</i>精选样片与代表条目</h2></div>
+      <p class="blk-lead">8 支公开样片，覆盖求婚、婚礼、纪念日、家庭四条线。每支都标注了拍摄城市、时长与可参考的关键做法。</p>
+      <div class="cards" id="cardGrid">
+
+        <article class="card" data-cat="wedding">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-yuting01/400/300" width="400" height="300" loading="lazy" alt="《雨停之后·杭州》婚礼纪实样片封面，雨中撑伞的新人">
+            <span class="card-type">婚礼当日纪实</span>
+          </div>
+          <div class="card-body">
+            <h4>《雨停之后·杭州》</h4>
+            <p>2026 年 10 月杭州郊外婚礼，全天有雨。我们放弃补光、改用现场窗光与伞下反光，成片保留了雨声与宾客的笑场。适合想看“恶劣天气怎么办”的新人。</p>
+            <div class="card-tags"><span>雨天方案</span><span>双机位</span><span>自然光</span></div>
+            <div class="card-meta"><span>12 分 40 秒 · 2026-10-18</span><b>播放 3.2 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="proposal">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-qiuHun02/400/300" width="400" height="300" loading="lazy" alt="《天台上的第 999 次日落》求婚仪式记录样片封面">
+            <span class="card-type">求婚仪式记录</span>
+          </div>
+          <div class="card-body">
+            <h4>《天台上的第 999 次日落》</h4>
+            <p>男主提前两周踩点，用 999 张拍立得铺满天台。我们只带一机一麦，藏在消防通道口，记录从推门到落泪的完整 4 分钟。适合想保留真实反应而非摆拍求婚的人。</p>
+            <div class="card-tags"><span>隐蔽机位</span><span>一镜到底</span><span>拍立得布景</span></div>
+            <div class="card-meta"><span>4 分 12 秒 · 2026-11-08</span><b>播放 5.7 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="anniversary">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-wunian03/400/300" width="400" height="300" loading="lazy" alt="《第五年的厨房》周年纪念短片样片封面">
+            <span class="card-type">周年纪念短片</span>
+          </div>
+          <div class="card-body">
+            <h4>《第五年的厨房》</h4>
+            <p>一对夫妻结婚五周年，我们没拍旅行、没拍海景，只拍他们在家做一顿晚饭：谁切菜、谁洗碗、谁先偷吃。3 分半的片子，把五年过日子的质感拍出来了。</p>
+            <div class="card-tags"><span>生活流</span><span>室内收音</span><span>年度回访</span></div>
+            <div class="card-meta"><span>3 分 30 秒 · 2026-11-02</span><b>播放 2.1 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="family">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-hongxiangzi04/400/300" width="400" height="300" loading="lazy" alt="《外婆的红箱子·潮汕》家庭影像档案样片封面">
+            <span class="card-type">家庭影像档案</span>
+          </div>
+          <div class="card-body">
+            <h4>《外婆的红箱子·潮汕》</h4>
+            <p>客户委托记录外婆 86 岁生日与嫁妆红箱的开箱过程。片子以潮汕方言同期声为主，配少量字幕。这类档案我们建议每年补拍一次，成本低、增值高。</p>
+            <div class="card-tags"><span>方言同期声</span><span>长辈访谈</span><span>年度补拍</span></div>
+            <div class="card-meta"><span>18 分 05 秒 · 2026-11-15</span><b>播放 1.4 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="wedding">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-sanShu05/400/300" width="400" height="300" loading="lazy" alt="《三书六礼·泉州》中式婚礼纪实样片封面">
+            <span class="card-type">中式婚礼纪实</span>
+          </div>
+          <div class="card-body">
+            <h4>《三书六礼·泉州》</h4>
+            <p>完整记录纳采、问名、纳吉到亲迎的流程，重点拍长辈的仪式动作与祝词。适合想保留礼俗细节、又担心传统流程拍得沉闷的家庭。</p>
+            <div class="card-tags"><span>礼俗流程</span><span>长辈视角</span><span>祝词字幕</span></div>
+            <div class="card-meta"><span>15 分 20 秒 · 2026-10-30</span><b>播放 2.8 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="wedding">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-mudi06/400/300" width="400" height="300" loading="lazy" alt="《洱海边的三十人》目的地婚礼样片封面">
+            <span class="card-type">目的地婚礼</span>
+          </div>
+          <div class="card-body">
+            <h4>《洱海边的三十人》</h4>
+            <p>大理目的地婚礼，全程只有 30 位宾客。我们把一半素材给了宾客互动：谁哭了、谁喝多了、谁在角落里补妆。小规模婚礼的优势就在这里。</p>
+            <div class="card-tags"><span>小规模婚礼</span><span>目的地跟拍</span><span>宾客群像</span></div>
+            <div class="card-meta"><span>9 分 55 秒 · 2026-11-05</span><b>播放 4.3 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="proposal">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-lingzheng07/400/300" width="400" height="300" loading="lazy" alt="《领证那天的 40 分钟》领证跟拍样片封面">
+            <span class="card-type">领证跟拍</span>
+          </div>
+          <div class="card-body">
+            <h4>《领证那天的 40 分钟》</h4>
+            <p>不办婚礼的两个人，把预算全放在领证跟拍上。我们从排队、填表、盖章到出门买煎饼，全程跟拍 40 分钟，剪成 5 分钟。轻量、便宜、情绪密度高。</p>
+            <div class="card-tags"><span>轻量跟拍</span><span>政务场景</span><span>半日档</span></div>
+            <div class="card-meta"><span>5 分 08 秒 · 2026-11-20</span><b>播放 6.1 万</b></div>
+          </div>
+        </article>
+
+        <article class="card" data-cat="family">
+          <div class="card-thumb">
+            <img src="https://picsum.photos/seed/jiujiu-baibai08/400/300" width="400" height="300" loading="lazy" alt="《百日·第一声笑》宝宝百日影像样片封面">
+            <span class="card-type">宝宝百日影像</span>
+          </div>
+          <div class="card-body">
+            <h4>《百日·第一声笑》</h4>
+            <p>室内自然光拍摄，不换服装、不摆道具，只记录一天里喂奶、打嗝、翻身、第一次笑出声。父母说这是他们唯一存下来的“没有修图”的宝宝影像。</p>
+            <div class="card-tags"><span>自然光</span><span>居家场景</span><span>不摆拍</span></div>
+            <div class="card-meta"><span>7 分 16 秒 · 2026-11-12</span><b>播放 1.9 万</b></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3 最新更新 -->
+    <section class="blk" id="latest">
+      <div class="blk-head"><h2><i>03</i>最新更新与档期动态</h2></div>
+      <p class="blk-lead">成片上线、档期释放、设备升级与直播预告，按时间倒序。</p>
+      <ul class="feed">
+        <li><span class="feed-time">今天 09:30</span><div class="feed-body"><b><span class="dot"></span>《领证那天的 40 分钟》成片上线条</b><span>杭州拱墅区民政局跟拍，5 分 08 秒，含同期声与字幕，客户已授权公开。</span></div></li>
+        <li><span class="feed-time">今天 08:10</span><div class="feed-body"><b>2027 年 4 月 18 日、4 月 25 日档期释放</b><span>两户客户改期，各空出一个双机位名额，节假日价格上浮 15%。</span></div></li>
+        <li><span class="feed-time">昨天 21:10</span><div class="feed-body"><b>《外婆的红箱子·潮汕》加更方言字幕版</b><span>新增潮汕话逐句字幕与长辈访谈补录 3 分钟，原版保留。</span></div></li>
+        <li><span class="feed-time">昨天 15:40</span><div class="feed-body"><b>新增 Sony FX6 第二机身</b><span>用于室内弱光婚礼补位，ISO 12800 下噪点明显改善，12 月起双机位全面切换。</span></div></li>
+        <li><span class="feed-time">11 月 23 日</span><div class="feed-body"><b>《三书六礼·泉州》被本地礼俗号转载</b><span>单日播放突破 8,000，评论区集中讨论“纳吉”环节的祝词版本差异。</span></div></li>
+        <li><span class="feed-time">11 月 21 日</span><div class="feed-body"><b>求婚线推出“半日彩排 + 当日跟拍”组合</b><span>含一次实地走位、一次灯光测试，适合天台、餐厅包间等固定场地。</span></div></li>
+        <li><span class="feed-time">11 月 19 日</span><div class="feed-body"><b>12 月 31 日跨年档期已满</b><span>该日不再接受新预约，候补名单开放至 12 月 10 日。</span></div></li>
+        <li><span class="feed-time">11 月 17 日</span><div class="feed-body"><b>《第五年的厨房》获客户二次授权</b><span>同意用于线下看片会放映，并补录一段夫妻观后反应。</span></div></li>
+        <li><span class="feed-time">11 月 14 日</span><div class="feed-body"><b>后期交付周期由 45 天缩短至 30 天</b><span>新增一名剪辑师，婚礼线成片平均交付 28 天，纪念短片 14 天。</span></div></li>
+        <li><span class="feed-time">11 月 09 日</span><div class="feed-body"><b>《天台上的第 999 次日落》幕后解析上线</b><span>含隐蔽机位布置图与无线麦防风方案，时长 6 分钟。</span></div></li>
+        <li><span class="feed-time">11 月 06 日</span><div class="feed-body"><b>冬季家庭影像档案开放预约</b><span>主打春节前三代同堂拍摄，建议 12 月中旬前锁定日期。</span></div></li>
+        <li><span class="feed-time">11 月 03 日</span><div class="feed-body"><b>《雨停之后·杭州》入选平台月度婚礼纪实榜</b><span>位列第 4，评论区最多的问题是雨天设备防护。</span></div></li>
+      </ul>
+    </section>
+
+    <!-- 4 分类 -->
+    <section class="blk" id="category">
+      <div class="blk-head"><h2><i>04</i>按服务类型筛选样片</h2></div>
+      <p class="blk-lead">点选分类，下方“精选样片”只显示对应条目。再点一次取消筛选。</p>
+      <div class="cats" id="catBtns" role="group" aria-label="样片分类筛选">
+        <button class="cat on" data-filter="all"><b>全部</b><span>8 支样片</span></button>
+        <button class="cat" data-filter="proposal"><b>求婚仪式记录</b><span>隐蔽机位 · 真实反应</span></button>
+        <button class="cat" data-filter="wedding"><b>婚礼当日纪实</b><span>双机位 · 全天跟拍</span></button>
+        <button class="cat" data-filter="anniversary"><b>周年纪念短片</b><span>生活流 · 年度回访</span></button>
+        <button class="cat" data-filter="family"><b>家庭影像档案</b><span>长辈访谈 · 长期记录</span></button>
+        <button class="cat" data-filter="wedding"><b>中式三书六礼</b><span>礼俗流程完整记录</span></button>
+        <button class="cat" data-filter="wedding"><b>目的地婚礼</b><span>小规模 · 宾客群像</span></button>
+        <button class="cat" data-filter="proposal"><b>领证跟拍</b><span>半日档 · 轻量预算</span></button>
+        <button class="cat" data-filter="family"><b>宝宝百日影像</b><span>自然光 · 不摆拍</span></button>
+      </div>
+      <p class="filter-note" id="filterNote">当前显示：<b>全部 8 支样片</b>。分类按钮同时对应左栏频道，可跳转到相应位置。</p>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="blk deep" id="deep">
+      <div class="blk-head"><h2><i>05</i>深度解析：一支婚礼影像到底贵在哪</h2></div>
+      <p class="blk-lead">同样的“双机位全天跟拍”，报价能从 3,000 元到 30,000 元。差别不在设备清单，而在四个可验证的维度。</p>
+
+      <p>先给结论：婚礼影像的价格差异，约七成来自人（拍摄者的判断力与后期投入），两成来自时长与机位，只有一成来自器材。999长长久久 的报价单里，机身型号是写在最后一行的小字，前面几页全是流程与交付说明。下面拆开讲。</p>
+
+      <h3>一、机位数量不等于信息量</h3>
+      <p>很多新人以为两台机器就一定比一台好。实际是：如果两台机器都对着新人，那你只是得到了两个角度相同的画面。真正的双机位应该分工，一台守新人，一台守长辈与宾客。我们拍《雨停之后·杭州》时，第二机位整场没拍过新娘正脸，全给了门口迎宾的父母和哭到蹲下的伴娘。成片里最有力量的三分钟，全部来自那台“没拍主角”的机器。</p>
+      <ul>
+        <li><b>有效双机位</b>：两台机器有明确分工，素材互补，剪辑时能交叉。</li>
+        <li><b>无效双机位</b>：两台机器同角度、同景别，剪起来只能二选一。</li>
+        <li>判断方法：直接问团队“第二机位主要拍谁”，答不出具体对象的，多半是凑数。</li>
+      </ul>
+
+      <h3>二、同期声是分水岭</h3>
+      <p>有没有认真收声，是婚礼影像最容易被忽略、也最影响重看率的一项。誓言、改口、长辈致辞、宾客起哄，这些声音十年后比画面更值钱。我们的做法是：新人各别一枚领夹麦，主桌放一支指向性麦，仪式区再挂一支环境麦，后期做三轨混音。</p>
+      <div class="compare">
+        <div class="compare-box">
+          <h4>有同期声的片子</h4>
+          <p>能听见父亲说“我把她交给你了”时的停顿和鼻音；能听见宾客突然的掌声；重看时情绪是完整的。</p>
+        </div>
+        <div class="compare-box">
+          <h4>纯配乐的片子</h4>
+          <p>画面漂亮但像广告；换一首歌就是另一支片子；三年后基本不会再点开。</p>
+        </div>
+      </div>
+
+      <h3>三、后期投入决定成片寿命</h3>
+      <p>拍摄只占整个工作量的一半。一支 12 分钟的婚礼纪实，素材通常在 400—600 GB，粗剪、精剪、调色、混音、字幕加起来 60—80 小时。低价套餐的常见做法是套模板：固定片头、固定转场、固定三首曲子。这类片子交付快，但看第二遍就会发现所有情绪都卡在同一个鼓点上。</p>
+      <ul>
+        <li><b>调色</b>：现场光复杂的婚礼必须逐镜调，否则白纱会发灰、肤色会发绿。</li>
+        <li><b>混音</b>：把环境声压到 -18dB 左右，人声提到 -6dB，才不会在电视上听不清。</li>
+        <li><b>字幕</b>：方言、长辈祝词、礼俗术语建议全配，不然五年后自己都听不懂。</li>
+      </ul>
+
+      <h3>四、长期回访是隐性价值</h3>
+      <p>999长长久久 做纪念短片和家庭档案，核心不是单次拍摄，而是同一位拍摄者持续记录同一对人。我们最长的一户连拍 7 年，从婚礼拍到孩子上小学。第 7 年的片子里剪进了第 1 年的画面，客户看完说“这钱花得像存了一笔定期”。这类服务的判断标准很简单：团队是否愿意承诺同一位主摄、是否保留历史素材、是否按年提醒补拍。</p>
+
+      <h3>五、报价单里应该出现的条目</h3>
+      <p>拿到报价单时，逐条对照下面这些项。缺项越多，后期加价的空间越大。</p>
+      <ul>
+        <li>拍摄时长与超时计费方式（按小时还是按半天）</li>
+        <li>机位数量及各自分工说明</li>
+        <li>收音设备清单与是否含后期混音</li>
+        <li>成片时长、分辨率、交付格式（是否给原始素材）</li>
+        <li>交片周期与延期赔付条款</li>
+        <li>差旅、住宿、异地拍摄的结算方式</li>
+        <li>改期与取消的档期损失规则</li>
+      </ul>
+      <p>把这七项问清楚，基本能过滤掉八成后期扯皮。剩下的两成，靠看完整成片而不是看混剪花絮来判断——花絮人人都剪得好看，完整片子才暴露真实水平。</p>
+    </section>
+
+    <!-- 6 体验指南 -->
+    <section class="blk" id="guide">
+      <div class="blk-head"><h2><i>06</i>第一次找婚礼影像，按这个顺序来</h2></div>
+      <p class="blk-lead">不是“先比价”，而是先确定你要的是哪一种片子。</p>
+      <ol class="steps">
+        <li><b>先定片子类型，再谈价格</b><span>想要“当天情绪完整回放”，选婚礼当日纪实；只想留个纪念、预算有限，领证跟拍或半日档更划算；想长期记录，直接谈年度回访。</span></li>
+        <li><b>看一支完整成片，不看混剪</b><span>至少完整看完 10 分钟以上。重点看中段——片头人人用心，中段最见功底。</span></li>
+        <li><b>问三个具体问题</b><span>“第二机位主要拍谁”“誓言部分怎么收音”“如果下雨备选方案是什么”。答得越具体，团队越靠谱。</span></li>
+        <li><b>核对档期与交付周期</b><span>旺季（4—5 月、9—10 月）建议提前 6 个月。确认交片时间写进合同，别只听口头承诺。</span></li>
+        <li><b>确认主摄是谁</b><span>样片可能是总监拍的，实际到场可能是新人。要求合同写明主摄姓名与替补方案。</span></li>
+        <li><b>最后才谈价格与增项</b><span>把超时费、异地差旅、原始素材交付、加急费逐项问清，避免后期被动。</span></li>
+      </ol>
+      <p style="margin-top:14px;font-size:13.5px;color:var(--text-3)">比较两支同类片子时，用同一套维度：收音是否清晰、中段是否有情绪起伏、调色是否统一、字幕是否完整、有没有让你想重看第二遍的段落。五个维度里过四个，基本可以放心。</p>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="blk" id="faq">
+      <div class="blk-head"><h2><i>07</i>常见问题</h2></div>
+      <p class="blk-lead">来自近三个月咨询里出现频率最高的六个问题。</p>
+
+      <details>
+        <summary>婚礼纪实一般多久能拿到成片？</summary>
+        <p>999长长久久 目前婚礼当日纪实的平均交付周期是 28 天，合同承诺 30 天内交付；周年纪念短片 14 天；家庭影像档案 21 天。旺季（4—5 月、9—10 月）可能顺延 5—7 天，具体以合同写明的日期为准。加急需另计费用。</p>
+      </details>
+      <details>
+        <summary>双机位和单机位到底差在哪？</summary>
+        <p>差在信息量，不在画面数量。单机位只能守住一个区域，通常保新人；双机位的价值在于第二台机器去拍长辈、宾客和现场细节。如果预算只够单机位，建议把机位放在仪式区侧后方，兼顾新人与主桌，比正面硬拍更有内容。</p>
+      </details>
+      <details>
+        <summary>下雨天还能拍吗？会不会毁掉整支片子？</summary>
+        <p>能拍，而且雨天往往出好片。《雨停之后·杭州》就是全天有雨的婚礼。关键是提前准备：机身防雨罩、镜头雨刷、伞下反光板，以及把户外仪式改到有顶棚的半室外区。雨声同期声保留下来反而更有记忆点。</p>
+      </details>
+      <details>
+        <summary>第一次接触婚礼影像，从哪支样片开始看比较好？</summary>
+        <p>如果预算有限或不想办大型婚礼，先看《领证那天的 40 分钟》；如果计划办传统中式婚礼，看《三书六礼·泉州》；如果只想感受情绪密度，看《雨停之后·杭州》。三支片子分别代表轻量、礼俗、情绪三种路线。</p>
+      </details>
+      <details>
+        <summary>婚礼纪实和婚礼微电影有什么区别？</summary>
+        <p>婚礼纪实以真实流程为主体，保留同期声，少摆拍，成片 10—20 分钟；婚礼微电影通常提前写脚本、安排表演与运镜，成片 3—6 分钟，画面更精致但真实感弱。两者不冲突，预算允许可以同日各拍一套，但要注意时间安排。</p>
+      </details>
+      <details>
+        <summary>原始素材会给我们吗？以后想自己剪怎么办？</summary>
+        <p>会。999长长久久 默认交付成片 + 精选原始素材（约 20—40 GB），如需全部原始素材（通常 400—600 GB）需提前说明，用移动硬盘拷贝，不额外收费。素材我们保留 3 年，用于后续回访补拍时调用。</p>
+      </details>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="blk" id="reviews">
+      <div class="blk-head"><h2><i>08</i>客户怎么说</h2></div>
+      <p class="blk-lead">来自交付后回访问卷与公开样片评论区的真实反馈，含中性评价。</p>
+      <div class="comments">
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#d8a75b">林</span><b>林间小满</b><em>2026-11-24</em></div><p>《雨停之后》看完直接定了。最打动我的是我爸在门口抽烟那段，自己婚礼都没注意到他在那儿。<span class="star">★★★★★</span></p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#c96b7a">周</span><b>周屿不屿</b><em>2026-11-23</em></div><p>求婚那支拍得很克制，没有强行煽情。就是收音稍微有点远，天台风大，几句台词听不太清。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#5fa8a0">陈</span><b>陈一碗</b><em>2026-11-22</em></div><p>领证跟拍性价比真的高，半天时间，剪出来 5 分钟，我妈看了三遍。适合不办婚礼的人。<span class="star">★★★★★</span></p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8f7fd0">许</span><b>许三土</b><em>2026-11-21</em></div><p>《三书六礼》那支把纳吉的祝词全配了字幕，我们家老人看完说“这个拍得懂”。细节到位。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#d8a75b">何</span><b>何止于礼</b><em>2026-11-20</em></div><p>交付比合同早了四天，这点加分。调色偏暖，我个人更喜欢冷一点，但家里长辈都满意，算了。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#c96b7a">苏</span><b>苏打绿岛</b><em>2026-11-19</em></div><p>《第五年的厨房》太真实了，我和我老公看完沉默了一会儿。原来过日子本身就能拍成片子。<span class="star">★★★★★</span></p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#5fa8a0">郑</span><b>郑小满</b><em>2026-11-18</em></div><p>宝宝百日那支没换衣服没摆道具，一开始我还担心太素，成片出来发现比那些精修的耐看多了。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8f7fd0">吴</span><b>吴不快</b><em>2026-11-17</em></div><p>沟通阶段回复有点慢，旺季可以理解。拍摄当天很专业，两个机位分工明确，没有互相干扰。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#d8a75b">黄</span><b>黄灯停一停</b><em>2026-11-16</em></div><p>目的地婚礼从大理跟到丽江，差旅结算清楚，没有临时加价。30 人小婚礼拍出了群像感。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#c96b7a">罗</span><b>罗望子</b><em>2026-11-15</em></div><p>外婆那支片子我们全家一起看的，方言字幕帮了大忙。外婆自己看不太懂画面，但听到声音就笑了。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#5fa8a0">梁</span><b>梁上燕</b><em>2026-11-14</em></div><p>整体满意。唯一想提的是成片里的背景音乐选得偏流行，如果能换更有年代感的曲子会更好。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8f7fd0">谢</span><b>谢不敏</b><em>2026-11-13</em></div><p>提前半年定的 4 月档期，当时还觉得太早，现在看是对的。旺季真的一位难求。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#d8a75b">韩</span><b>韩梅梅</b><em>2026-11-12</em></div><p>看中他们家保留同期声这一点。参加过太多婚礼，成片全是配乐，一句人话都没有。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#c96b7a">沈</span><b>沈小楼</b><em>2026-11-11</em></div><p>合同写得很细，超时费、改期规则都列清楚了，签的时候安心。这点比价格重要。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#5fa8a0">马</span><b>马不停</b><em>2026-11-10</em></div><p>求婚线彩排那一次很有用，灯光和走位都试过，当天一次过。就是价格比纯跟拍贵一些。</p></div>
+        <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8f7fd0">袁</span><b>袁来是你</b><em>2026-11-09</em></div><p>连续三年找他们拍周年，每年 3 分钟，串起来看特别有感觉。建议有条件的都试试年度回访。<span class="star">★★★★★</span></p></div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="blk" id="news">
+      <div class="blk-head"><h2><i>09</i>影像与婚礼资讯</h2></div>
+      <p class="blk-lead">与拍摄、后期、礼俗相关的具体动态，按发布日期倒序。</p>
+      <div class="news">
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news01/600/400" width="600" height="400" loading="lazy" alt="婚礼影像团队在雨中使用防雨罩拍摄">
+          <div class="news-body">
+            <h4><a href="/#news">《雨停之后·杭州》入选平台 11 月婚礼纪实榜第 4 名</a></h4>
+            <time>2026-11-24</time>
+            <p>评论区讨论最多的是雨天设备防护与伞下补光方案，团队已整理成 6 分钟幕后视频。</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news02/600/400" width="600" height="400" loading="lazy" alt="潮汕方言字幕版家庭影像档案画面">
+          <div class="news-body">
+            <h4><a href="/#news">方言字幕成为家庭影像档案的标配需求</a></h4>
+            <time>2026-11-21</time>
+            <p>近三个月新增委托中，超过六成要求配方言字幕，潮汕话、闽南语、温州话需求最集中。</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news03/600/400" width="600" height="400" loading="lazy" alt="婚礼现场收音设备布置示意">
+          <div class="news-body">
+            <h4><a href="/#news">三轨同期声混音方案在中小型婚礼中普及</a></h4>
+            <time>2026-11-18</time>
+            <p>领夹麦 + 指向麦 + 环境麦的组合成本已降至千元级，越来越多新人把收音写进合同要求。</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news04/600/400" width="600" height="400" loading="lazy" alt="泉州中式婚礼三书六礼仪式现场">
+          <div class="news-body">
+            <h4><a href="/#news">泉州、潮州两地中式礼俗拍摄需求同比上升</a></h4>
+            <time>2026-11-15</time>
+            <p>纳采、纳吉、亲迎等环节的完整记录成为主要诉求，家庭希望把祝词与流程留给下一代。</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news05/600/400" width="600" height="400" loading="lazy" alt="剪辑工作台上的调色与混音界面">
+          <div class="news-body">
+            <h4><a href="/#news">婚礼成片平均交付周期缩短至 30 天以内</a></h4>
+            <time>2026-11-12</time>
+            <p>部分团队引入代理剪辑流程，粗剪效率提升约三成，但精剪与调色仍占主要工时。</p>
+          </div>
+        </article>
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/jiujiu-news06/600/400" width="600" height="400" loading="lazy" alt="领证跟拍在民政局门口拍摄的画面">
+          <div class="news-body">
+            <h4><a href="/#news">“不办婚礼只领证”人群带动半日跟拍增长</a></h4>
+            <time>2026-11-08</time>
+            <p>半日档、轻量跟拍在 25—30 岁人群中需求上升，预算集中在 2,000—4,000 元区间。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="blk" id="related">
+      <div class="blk-head"><h2><i>10</i>延伸方向与相关条目</h2></div>
+      <p class="blk-lead">与上面“当下可看的样片”不同，这一组是延伸主题与判断方向。</p>
+      <div class="tagindex">
+        <a href="/#deep">婚礼影像报价单七项核对清单</a>
+        <a href="/#guide">不办婚礼的领证跟拍预算方案</a>
+        <a href="/#deep">双机位分工的三种常见配置</a>
+        <a href="/#faq">婚礼纪实与婚礼微电影的区别</a>
+        <a href="/#featured">中式三书六礼完整流程记录</a>
+        <a href="/#reviews">年度回访补拍的真实体验</a>
+        <a href="/#deep">方言同期声与字幕制作</a>
+        <a href="/#latest">2027 春季档期与价格浮动</a>
+      </div>
+    </section>
+
+    <!-- 11 补充：时间线 + 可信度分层 -->
+    <section class="blk" id="timeline">
+      <div class="blk-head"><h2><i>11</i>品牌时间线与可信度分层</h2></div>
+      <p class="blk-lead">左侧是 999长长久久 的重要节点，右侧说明我们如何标注信息的可信程度。</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px" class="tl-grid">
+        <ul class="timeline">
+          <li><b>品牌成立，首支婚礼纪实交付</b><time>2014-06</time><span>起步于杭州，首年交付 23 支成片，全部为单机位。</span></li>
+          <li><b>引入双机位与同期声方案</b><time>2017-09</time><span>开始使用领夹麦 + 环境麦，成片重看率明显提升。</span></li>
+          <li><b>开设周年纪念短片线</b><time>2019-03</time><span>首批 12 对夫妻签约年度回访，最长连拍至今 7 年。</span></li>
+          <li><b>家庭影像档案上线</b><time>2021-11</time><span>从宝宝百日延伸到三代同堂，方言字幕成为标准配置。</span></li>
+          <li><b>累计交付突破 1,000 支</b><time>2024-05</time><span>同年启用 4K 全流程与代理剪辑，交付周期缩短。</span></li>
+          <li><b>2027 春季档期开放</b><time>2026-11-25</time><span>当前剩余 38 组，旺季建议提前 6 个月锁定。</span></li>
+        </ul>
+        <div class="tiers">
+          <div class="tier"><b>已核验</b><span>合同条款、交付周期、报价区间、主摄姓名。可在签约前逐条书面确认。</span></div>
+          <div class="tier"><b>可参考</b><span>样片播放量、客户回访评分、档期剩余数量。数据来自平台与内部统计，按月更新。</span></div>
+          <div class="tier"><b>主观判断</b><span>“耐看”“情绪密度高”等评价属于个人观感，建议完整看完成片后自行判断。</span></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 右辅助栏 -->
+  <aside class="side-r" aria-label="热榜与更新流">
+    <div class="panel">
+      <h3>本月热看</h3>
+      <ol class="rank-list">
+        <li><div><b>《领证那天的 40 分钟》</b><small>播放 6.1 万</small></div></li>
+        <li><div><b>《天台上的第 999 次日落》</b><small>播放 5.7 万</small></div></li>
+        <li><div><b>《洱海边的三十人》</b><small>播放 4.3 万</small></div></li>
+        <li><div><b>《雨停之后·杭州》</b><small>播放 3.2 万</small></div></li>
+        <li><div><b>《三书六礼·泉州》</b><small>播放 2.8 万</small></div></li>
+        <li><div><b>《第五年的厨房》</b><small>播放 2.1 万</small></div></li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h3>更新流</h3>
+      <ul class="feed" style="font-size:12px">
+        <li><span class="feed-time" style="width:58px">今天</span><div class="feed-body"><b style="font-size:12.5px">《领证那天的 40 分钟》上线</b></div></li>
+        <li><span class="feed-time" style="width:58px">昨天</span><div class="feed-body"><b style="font-size:12.5px">潮汕话字幕版加更</b></div></li>
+        <li><span class="feed-time" style="width:58px">11-23</span><div class="feed-body"><b style="font-size:12.5px">礼俗号转载《三书六礼》</b></div></li>
+        <li><span class="feed-time" style="width:58px">11-21</span><div class="feed-body"><b style="font-size:12.5px">求婚半日组合上线</b></div></li>
+        <li><span class="feed-time" style="width:58px">11-19</span><div class="feed-body"><b style="font-size:12.5px">跨年档期已满</b></div></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>快速查询</h3>
+      <div class="search">
+        <input type="search" id="q" placeholder="搜索样片名或类型" aria-label="搜索样片名或类型">
+      </div>
+      <p class="mini-note" id="searchHint">输入“雨”“领证”“潮汕”等关键词，页面会定位到对应样片。</p>
+      <a class="btn" style="width:100%;margin-top:8px" href="/#faq">看常见问题</a>
+    </div>
+  </aside>
+</div>
+
+<!-- 页尾 -->
+<footer class="foot" id="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="11" fill="#1b1a15" stroke="#5a4526" stroke-width="1.4"/>
+            <path d="M12 26c0-6 3.6-10 8-10s8 4 8 10" fill="none" stroke="#d8a75b" stroke-width="2.4" stroke-linecap="round"/>
+            <circle cx="20" cy="13" r="2.6" fill="#d8a75b"/>
+            <path d="M15.5 30h9" stroke="#c96b7a" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-text">999长长久久<small>WEDDING FILM</small></span>
+        </div>
+        <p>以纪录片方法制作婚礼与家庭影像，保留同期声，记录真实反应。杭州起步，服务覆盖长三角与目的地婚礼。</p>
+      </div>
+      <div class="foot-col">
+        <h4>服务线</h4>
+        <ul>
+          <li><a href="/#featured">求婚仪式记录</a></li>
+          <li><a href="/#featured">婚礼当日纪实</a></li>
+          <li><a href="/#featured">周年纪念短片</a></li>
+          <li><a href="/#featured">家庭影像档案</a></li>
+          <li><a href="/#category">中式三书六礼</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>了解我们</h4>
+        <ul>
+          <li><a href="/#overview">品牌概览</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#timeline">品牌时间线</a></li>
+          <li><a href="/#reviews">客户反馈</a></li>
+          <li><a href="/#news">影像资讯</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>预约与帮助</h4>
+        <ul>
+          <li><a href="/#guide">预约流程</a></li>
+          <li><a href="/#latest">档期动态</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#related">延伸方向</a></li>
+          <li><a href="/#noticeBar">档期公告</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span class="disc">数据说明：样片播放量、客户评分与档期余量为本团队内部统计，每月更新一次；页面内条目名称、时长与日期为已交付或已公开内容。报价以签约时书面合同为准。</span>
+      <span>© 2026 999长长久久 影像工作室 · 保留所有权利</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* 菜单 */
+  var menuBtn = document.getElementById('menuBtn');
+  var nav = document.getElementById('navMain');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuBtn.textContent = open ? '收起' : '菜单';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 1024){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+        menuBtn.textContent = '菜单';
+      }
+    });
+  }
+
+  /* 分类筛选 */
+  var grid = document.getElementById('cardGrid');
+  var btns = document.querySelectorAll('#catBtns .cat');
+  var note = document.getElementById('filterNote');
+  var cards = grid ? grid.querySelectorAll('.card') : [];
+  var labelMap = {all:'全部',proposal:'求婚仪式记录与领证跟拍',wedding:'婚礼当日纪实',anniversary:'周年纪念短片',family:'家庭影像档案与宝宝百日'};
+
+  function applyFilter(f){
+    var shown = 0;
+    cards.forEach(function(c){
+      var hit = (f === 'all') || (c.getAttribute('data-cat') === f);
+      c.hidden = !hit;
+      if(hit) shown++;
+    });
+    grid.classList.toggle('filtered', f !== 'all');
+    if(note){
+      note.innerHTML = '当前显示：<b>' + (labelMap[f]||'全部') + ' ' + shown + ' 支样片</b>。' + (f==='all' ? '分类按钮同时对应左栏频道，可跳转到相应位置。' : '再点“全部”可恢复完整列表。');
+    }
+  }
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      btns.forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      applyFilter(b.getAttribute('data-filter'));
+    });
+  });
+
+  /* 搜索：定位到样片 */
+  var q = document.getElementById('q');
+  var hint = document.getElementById('searchHint');
+  if(q){
+    q.addEventListener('input', function(){
+      var kw = q.value.trim().toLowerCase();
+      if(!kw){
+        cards.forEach(function(c){ c.hidden = false; });
+        if(hint) hint.textContent = '输入“雨”“领证”“潮汕”等关键词，页面会定位到对应样片。';
+        return;
+      }
+      var found = 0;
+      cards.forEach(function(c){
+        var txt = c.textContent.toLowerCase();
+        var hit = txt.indexOf(kw) > -1;
+        c.hidden = !hit;
+        if(hit) found++;
+      });
+      if(hint){
+        if(found === 0){
+          hint.textContent = '没有匹配的样片，试试“婚礼”“求婚”“潮汕”“领证”“宝宝”。';
+        }else{
+          hint.textContent = '匹配到 ' + found + ' 支样片，已在上方“精选样片”中仅显示结果。';
+        }
+      }
+    });
+    q.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){
+        e.preventDefault();
+        var f = document.getElementById('featured');
+        if(f) f.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    });
+  }
+})();
+</script>
+</body>
+                                               </html>
